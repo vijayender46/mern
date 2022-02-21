@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    outline:none;
+    list-style: none;
+}
+body {
+    background-color: #f1f1f1;
+}
+img {
+    max-width:100%;
+}
+button {
+    border-radius: 0;
+    background:#ccc;
+    color:#000;
+}
+.container {
+    max-width:1280px;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    &.content-left {
+        justify-content:flex-start;
+    }
+}
+
+@import '_header';

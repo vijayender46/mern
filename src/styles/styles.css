@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border-radius: 0;
+  background: #ccc;
+  color: #000;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container.content-left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+header {
+  width: 100%;
+  padding: 30px 0;
+  background: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .vt-logo {
+  width: 250px;
+  text-align: left;
+  font-weight: bold;
+}
+
+header nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header nav a {
+  margin-left: 60px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+header nav a:hover {
+  color: #F0469F;
+}
+
+header nav img {
+  max-width: 25px;
+}
+/*# sourceMappingURL=styles.css.map */
