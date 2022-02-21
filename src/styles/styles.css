@@ -76,6 +76,10 @@ header nav a:hover {
   color: #F0469F;
 }
 
+header nav a.align-right {
+  margin-right: auto;
+}
+
 header nav img {
   max-width: 25px;
 }
