@@ -5,6 +5,7 @@ import './styles/styles.css';
 import Header from './header/Header';
 import Home from './Home/Home';
 import Projects from './Projects/Projects';
+import Notfound from './utilities/Notfound';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />           
+          <Route path="/about" element={<About />} /> 
+          <Route path="*" exact="true" element={<Notfound />} />          
         </Routes>
-      </div>
+      </div>      
     </div>
     </Router>
   );

@@ -83,4 +83,9 @@ header nav a.align-right {
 header nav img {
   max-width: 25px;
 }
+
+.coming-soon {
+  padding: 200px 0;
+  font-size: 120px;
+}
 /*# sourceMappingURL=styles.css.map */
