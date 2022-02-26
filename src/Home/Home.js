@@ -1,8 +1,11 @@
 import { Outlet } from "react-router-dom";
+import Hero from "../sections/Hero";
+import WhatIDo from "../sections/WhatIDo";
 const Home = () => {
     return (
-        <>
-        <h1 className="coming-soon">Comming Soon</h1>
+        <>         
+        <Hero />
+        <WhatIDo />
         <Outlet />
         </>
     )

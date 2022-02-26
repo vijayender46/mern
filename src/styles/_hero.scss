@@ -1,0 +1,80 @@
+.section_hero {
+    float:left;
+    width:100%;
+    padding:60px 0;
+    position: relative;
+    .slideItem {
+        margin:0 auto;
+        width:100%;
+        max-width: 1280px;
+        position: relative; 
+        display: flex;       
+    }
+    .hero_content {
+        float:left;
+        width:25%;
+        text-align: left;
+        h2{
+            font-size: 67px;
+            font-weight: 400;
+            color: #959595;
+        }
+        h1 {
+            font-size: 80px;
+            color:#000;
+            font-weight: 700;
+            line-height: 80px;
+            letter-spacing: -2px;
+            margin-bottom: 40px;
+        }
+        .des {
+            margin-top:200px;
+            h4 {
+                text-transform: uppercase;
+                font-size: 18px;
+                letter-spacing: 2px;
+            }
+            p{
+                max-width: 320px;
+                font-size: 14px;
+            }
+            a{
+                text-transform: uppercase;
+                color: #11E2F6;
+                letter-spacing: 2px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+    .hero_img { 
+        width: 60%;
+        text-align: center;
+        position: relative;
+        float: left;
+    }
+    .scroll-down {
+        position: absolute;
+        left:11%;
+        bottom: 30px;
+        button {
+            background-color:transparent;
+            border:0;
+        }
+    }
+    .hero_action {
+        float: left;
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: end;
+    }
+    .hero_tech {
+        p{
+            text-transform: uppercase;
+            margin:2px 0;
+            letter-spacing: 1px;
+        }
+    }
+}

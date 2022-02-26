@@ -6,8 +6,17 @@
     list-style: none;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
+    color:#444 !important;
+    font-size: 14px !important;
 }
+a{
+    color:#34D1DB !important;
+    &:hover {
+        color:#06BBC7 !important;
+    }
+}
+
 img {
     max-width:100%;
 }
@@ -25,6 +34,65 @@ button {
         justify-content:flex-start;
     }
 }
+.section-row {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.mobile-only{
+    display: none;
+    @media only screen and (max-width:767px) {
+        display: block;
+    }
+}
 
 @import '_header';
 @import '_home';
+@import '_hero';
+
+// utilities CSS
+.text-left{
+    text-align: left;
+}
+.section_header {
+    width:100%; float:left;
+    padding:10px 30px;
+    margin-bottom:50px;
+    h1 {
+        font-size: 34px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    h5 {
+        font-weight: 400;
+        font-size: 18px;
+        margin: 10px auto;
+        max-width: 400px;
+    }
+}
+.cardWrap {
+    background: linear-gradient(133.05deg, rgba(196, 196, 196, 0) -2.26%, #E2DDDD 47.35%, rgba(196, 196, 196, 0) 103.58%);
+    padding:50px 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(74px);
+    span {
+        display: inline-block;
+        width: 80px;
+        height:80px;
+        overflow: hidden;
+        border-radius:40px;
+        box-shadow: 0px 2px 25px rgba(0,0,0,0.2);
+        background: linear-gradient(133.39deg, #34D1DB -9.11%, rgba(52, 209, 219, 0) 100%), linear-gradient(133.05deg, rgba(196, 196, 196, 0) -2.26%, #E2DDDD 47.35%, rgba(196, 196, 196, 0) 103.58%);
+        color:#fff;
+        margin-bottom: 20px;        
+    }
+    h2{
+        color:#000;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0px;
+    }  
+
+}
