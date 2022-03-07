@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <Link to="/projects" className="align-right m-align-default">Projects</Link>
             <Link to="/about">About Me</Link>
-            <Link to="/blogs">Blogs</Link>
+            <Link to="/">Blogs</Link>
             <Link to="/">
             <span>
                 <img src={navicon} alt="Menu" />

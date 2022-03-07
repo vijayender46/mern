@@ -6,6 +6,7 @@ import Header from './header/Header';
 import Home from './Home/Home';
 import Projects from './Projects/Projects';
 import Notfound from './utilities/Notfound';
+import Blogdetail from './blog/Blogdetail';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} /> 
+          <Route path="/" element={<Home />} /> 
+          <Route path="/blogdes/:id" render={({ match }) => (
+            <Blogdetail item={item => String(item.id) === String(match.params.id)} /> 
+            )}/>
           <Route path="*" exact="true" element={<Notfound />} />          
         </Routes>
       </div>      

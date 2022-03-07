@@ -1,3 +1,8 @@
+@import '_header';
+@import '_home';
+@import '_hero';
+@import '_blogs';
+
 *{
     margin:0;
     padding:0;
@@ -47,11 +52,11 @@ button {
     }
 }
 
-@import '_header';
-@import '_home';
-@import '_hero';
-
 // utilities CSS
+.section-spacing {
+    padding:50px 0;
+}
+
 .text-left{
     text-align: left;
 }
@@ -95,4 +100,15 @@ button {
         letter-spacing: 0px;
     }  
 
+}
+
+.btn-cta {
+    background-color: #222 !important;
+    color:#fff !important;
+    margin-top:20px;
+    max-width: 200px;
+    &:hover {
+        color:#f1f1f1 !important;
+        background-color: #06BBC7 !important;
+    }
 }

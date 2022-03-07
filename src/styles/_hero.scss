@@ -53,13 +53,11 @@
         position: relative;
         float: left;
     }
-    .scroll-down {
-        position: absolute;
-        left:11%;
-        bottom: 30px;
+    .scroll-down {       
         button {
             background-color:transparent;
             border:0;
+            margin-left: 15px;
         }
     }
     .hero_action {

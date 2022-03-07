@@ -21,9 +21,10 @@ header {
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 2px;
-            color:#000;
-            &:hover {
-                color:#F0469F;
+            color:#000 !important;
+            text-decoration: none !important;
+            &:hover, &:active, &.active {
+                color:#F0469F !important;
             }
             &.align-right {
                 margin-right:auto;

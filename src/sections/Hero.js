@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <section className="section_hero">
             <Slider />
-            <div className='scroll-down'>
+            <div className='scroll-down container'>
                 <button><img src={scrollImg} alt="Scroll Down" /></button>
             </div>
         </section>
