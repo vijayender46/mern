@@ -8,7 +8,7 @@ import Projects from './Projects/Projects';
 import Notfound from './utilities/Notfound';
 import Blogdetail from './blog/Blogdetail';
 
-function App() {
+function App(props) {
   return (
     <Router>
     <div className="App">
@@ -18,10 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} /> 
-          <Route path="/" element={<Home />} /> 
-          <Route path="/blogdes/:id" render={({ match }) => (
-            <Blogdetail item={item => String(item.id) === String(match.params.id)} /> 
-            )}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog/:id" element={<Blogdetail {...props} />} />
           <Route path="*" exact="true" element={<Notfound />} />          
         </Routes>
       </div>      

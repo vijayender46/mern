@@ -2,7 +2,7 @@ import { CardWrap, SectionTitle } from "../utilities/UiElements";
 import { Blogdata } from "../utilities/constants";
 import { Link } from "react-router-dom";
 
-const Blogs = (props) => {
+const Blogs = () => {
     return(
         <>
             <SectionTitle 
@@ -10,15 +10,15 @@ const Blogs = (props) => {
                 subTitle="I have written few Blogs to strenthen up my learnings 
                 and sharing what I understand.">
             </SectionTitle>
-            <div className="container">            
+            <div className="container section-spacing__bottom">            
                 <div className="row">
-                    {Blogdata.map(({blogTitle, blogSubTitle, blogImg, id}) => (                    
-                    <div className="col-md-3" key={id}>
+                    {Blogdata.map(({blogTitle, blogSubTitle, blogTitleImg, id}) => (                    
+                    <div className="col-md-3 blog_item" key={id}>
                         <CardWrap classes="align-center">
-                            <img src={blogImg} alt="" />
+                            <img src={blogTitleImg} alt="" />
                             <h1>{blogTitle}</h1>
                             <p>{blogSubTitle}</p>
-                            <Link to={"/blogdes/"+id}>Read Article</Link>
+                            <Link to={`/blog/${id}`}>{JSON.stringify(id)} Read Article</Link>
                         </CardWrap>
                     </div>
                     ))}

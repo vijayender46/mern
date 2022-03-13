@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import vijayenderImg from '../images/vijayender-Web-Developer.png';
 
 const About = () => {
@@ -13,7 +12,7 @@ const About = () => {
                    Corem kpsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <Link className='btn btn-cta' to="https://www.upwork.com/freelancers/~011c8c9baf880dcb88" target="_blank">Hire on Upwork</Link>
+                <a className='btn btn-cta' href="https://www.upwork.com/freelancers/~011c8c9baf880dcb88" target="_blank" rel="noreferrer">Hire on Upwork</a>
             </div>
         </div>
     )

@@ -180,6 +180,71 @@ header nav img {
   letter-spacing: 1px;
 }
 
+.blog_item h1 {
+  font-size: 18px;
+  margin-top: 15px;
+  min-height: 45px;
+}
+
+/* blog detail page styles */
+.blog-page__detail {
+  text-align: left;
+}
+
+.blog-page__detail .section_header {
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.blog-page__detail .section_header h5 {
+  max-width: 100%;
+}
+
+.blog-page__detail p {
+  padding: 10px 20px;
+}
+
+.blog-page__detail p + p {
+  padding-top: 0px;
+}
+
+.blog-page__detail pre {
+  background: #dbdbdba4;
+  padding: 15px;
+}
+
+.blog-detail__header {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 50px;
+  margin-top: -50px;
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.blog-detail__header img {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section-spacing__bottom {
+  padding-bottom: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
