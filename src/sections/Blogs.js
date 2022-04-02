@@ -18,7 +18,7 @@ const Blogs = () => {
                             <img src={blogTitleImg} alt="" />
                             <h1>{blogTitle}</h1>
                             <p>{blogSubTitle}</p>
-                            <Link to={`/blog/${id}`}>Read Article</Link>
+                            <Link to={`/blog/${id}`}>Read Article test</Link>
                         </CardWrap>
                     </div>
                     ))}
