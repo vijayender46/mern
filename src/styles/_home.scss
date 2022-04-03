@@ -4,6 +4,12 @@
 }
 
 // About Section
+.light-background {
+    background:#fff;
+    margin-bottom:40px;
+    float:left;
+    width:100%;
+}
 .aboutImg {
     text-align: left;
     img {
@@ -21,5 +27,50 @@
         color:#000;
         font-weight: 700;
         margin-bottom:30px;
+    }
+}
+.boxed-wrap {
+    width: 100%;
+    padding: 40px;
+    background: #e7e9f1;
+    margin: 50px auto !important;
+    .text-left .section_header{
+        margin-bottom:0;
+        h5 {
+        margin-left:0px;
+        width:100%;
+        max-width:100%;
+        font-size: 40px;
+        font-weight: 700;
+        color:#000;
+    }
+    h1{
+        font-size: 20px;
+        color:#888;
+    }
+}
+}
+.boxed-wrap-text {
+    p {
+        padding:0px 30px;
+    }
+}
+ul.org-logos li {
+   float: left;
+   &+ li{
+   padding-left:10px;
+}
+}
+ul.org-logos li img {
+    max-width: 100px;
+}
+section.bottom-illustration {
+    float: left;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    img {
+        max-width: 800px;
+        padding:0px 30px;
     }
 }

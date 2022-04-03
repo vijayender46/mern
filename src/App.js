@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import Projects from './Projects/Projects';
 import Notfound from './utilities/Notfound';
 import Blogdetail from './blog/Blogdetail';
+import Footer from './footer/Footer';
 
 function App(props) {
   return (
@@ -22,7 +23,8 @@ function App(props) {
           <Route path="/blog/:id" element={<Blogdetail {...props} />} />
           <Route path="*" exact="true" element={<Notfound />} />          
         </Routes>
-      </div>      
+      </div>
+      <Footer />    
     </div>
     </Router>
   );

@@ -53,6 +53,13 @@ header nav img {
   font-size: 120px;
 }
 
+.light-background {
+  background: #fff;
+  margin-bottom: 40px;
+  float: left;
+  width: 100%;
+}
+
 .aboutImg {
   text-align: left;
 }
@@ -82,6 +89,59 @@ header nav img {
   color: #000;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.boxed-wrap {
+  width: 100%;
+  padding: 40px;
+  background: #e7e9f1;
+  margin: 50px auto !important;
+}
+
+.boxed-wrap .text-left .section_header {
+  margin-bottom: 0;
+}
+
+.boxed-wrap .text-left .section_header h5 {
+  margin-left: 0px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+
+.boxed-wrap .text-left .section_header h1 {
+  font-size: 20px;
+  color: #888;
+}
+
+.boxed-wrap-text p {
+  padding: 0px 30px;
+}
+
+ul.org-logos li {
+  float: left;
+}
+
+ul.org-logos li + li {
+  padding-left: 10px;
+}
+
+ul.org-logos li img {
+  max-width: 100px;
+}
+
+section.bottom-illustration {
+  float: left;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+section.bottom-illustration img {
+  max-width: 800px;
+  padding: 0px 30px;
 }
 
 .section_hero {
@@ -243,6 +303,31 @@ header nav img {
 
 .section-spacing__bottom {
   padding-bottom: 50px;
+}
+
+footer {
+  margin-top: 0px;
+  background: #dae0e0;
+  padding: 15px 0 6px 0;
+  float: left;
+  width: 100%;
+}
+
+footer .footer-logo img {
+  max-width: 30px;
+}
+
+.footer-social {
+  float: right;
+}
+
+.footer-social li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.footer-social li img {
+  max-width: 25px;
 }
 
 * {

@@ -15,10 +15,10 @@ const Blogs = () => {
                     {Blogdata.map(({blogTitle, blogSubTitle, blogTitleImg, id}) => (                    
                     <div className="col-md-3 blog_item" key={id}>
                         <CardWrap classes="align-center">
-                            <img src={blogTitleImg} alt="" />
+                            <img src={blogTitleImg} alt={blogTitle} />
                             <h1>{blogTitle}</h1>
                             <p>{blogSubTitle}</p>
-                            <Link to={`/blog/${id}`}>Read Article test</Link>
+                            <Link to={`/blog/${id}`}>Read Article</Link>
                         </CardWrap>
                     </div>
                     ))}

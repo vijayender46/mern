@@ -1,0 +1,20 @@
+footer {
+    margin-top:0px;
+    background:#dae0e0;
+    padding:15px 0 6px 0;
+    float: left;
+    width:100%;
+    .footer-logo img {
+        max-width: 30px;
+    }
+}
+.footer-social{
+        float:right;
+    li{
+    display: inline-block;
+    padding:5px;
+    img {
+        max-width:25px;
+    }
+    }
+}
