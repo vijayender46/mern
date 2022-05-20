@@ -5,12 +5,10 @@ import Experience from "../sections/Experience";
 import Hero from "../sections/Hero";
 import Illustration from "../sections/Illustration";
 import WhatIDo from "../sections/WhatIDo";
-import CarouselFullWidth from "../utilities/Carousel";
 const Home = () => {
     return (
         <>         
-        <Hero />
-        <CarouselFullWidth />
+        <Hero />        
         <WhatIDo />
         <About />
         <Blogs />

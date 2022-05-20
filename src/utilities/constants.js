@@ -7,6 +7,24 @@ export const SliderContent = [
         projectImg : '../slidesImg/slide-01.png',
         projectTech : ['js', 'css', 'html', 'wordpress'],
         id : 'slide-01',
+    },
+    {
+        projectTitle : 'Spring_Villa',
+        projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        projectLink : 'www.google.com',
+        projectCMS : 'Wordpress',
+        projectImg : '../slidesImg/slide-01.png',
+        projectTech : ['js', 'css', 'html', 'wordpress'],
+        id : 'slide-02',
+    },
+    {
+        projectTitle : 'Shopify_Store',
+        projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        projectLink : 'www.google.com',
+        projectCMS : 'Wordpress',
+        projectImg : '../slidesImg/slide-01.png',
+        projectTech : ['js', 'css', 'html', 'wordpress'],
+        id : 'slide-03',
     }
 ]
 
